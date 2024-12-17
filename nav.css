@@ -89,6 +89,8 @@ nav > div.flex > div.worker {
   box-shadow: 3px 29px 100px -33px rgba(81, 81, 81, 1);
   border-radius: 20px;
   margin-bottom: 50px;
+  gap: 4px;
+  position: relative;
 }
 
 nav > div.flex > div.worker > button {
@@ -157,4 +159,10 @@ nav > div.flex > div.worker > h3:hover {
 
 nav > ul > li > button:hover {
   cursor: pointer;
+}
+
+nav > div.flex > div.worker > img {
+  bottom: 80%;
+  width: 60px;
+  position: absolute;
 }
